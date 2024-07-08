@@ -1,0 +1,43 @@
+:root {
+    --cor-primary: #667BC6;
+    --cor-secondary: #FDFFD2;
+    --cor-bg-1: #ededed;
+    --cor-bg-2: #d1d7ed;
+    --cor-black: #0e0e0e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Inter', Helvetica, sans-serif;
+    background-color: #fefefe;
+    color: #111111;
+}
+  
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
