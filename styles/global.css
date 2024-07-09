@@ -1,14 +1,15 @@
 :root {
     --cor-primary: #667BC6;
     --cor-secondary: #FDFFD2;
-    --cor-bg-1: #ededed;
-    --cor-bg-2: #d1d7ed;
+    --cor-bg-1: #d1d7ed;
+    --cor-bg-2: #ededed;
     --cor-black: #0e0e0e;
-}
-
+    }
+    
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,8 +17,10 @@ body {
     height: 100vh;
     box-sizing: border-box;
     font-family: 'Inter', Helvetica, sans-serif;
-    background-color: #fefefe;
-    color: #111111;
+    background-color: var(--cor-bg-1);
+    color: var(--cor-black);
+    max-width: 1400px;
+    margin: auto;
 }
   
 h1,
