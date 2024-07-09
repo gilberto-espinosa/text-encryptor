@@ -3,7 +3,8 @@
     --cor-secondary: #FDFFD2;
     --cor-bg-1: #d1d7ed;
     --cor-bg-2: #ededed;
-    --cor-black: #0e0e0e;
+    --cor-text-primary: #0e0e0e;
+    --cor-text-secondary: #fefefe;
     }
     
 * {
@@ -18,7 +19,7 @@ body {
     box-sizing: border-box;
     font-family: 'Inter', Helvetica, sans-serif;
     background-color: var(--cor-bg-1);
-    color: var(--cor-black);
+    color: var(--cor-text-primary);
     max-width: 1400px;
     margin: auto;
 }
