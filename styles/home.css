@@ -20,11 +20,11 @@ header {
     width: 100%;
     display: flex;
     align-items: end;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 header > p {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: var(--cor-primary);
 }
@@ -39,23 +39,29 @@ header > p {
     padding-bottom: 2.3rem;
     margin-top: 5rem;
 }
+
+.text-input-content {
+    width: 100%;
+    max-width: 680px;
+    height: 100%;
+    max-height: 350px;
+}
     
 textarea {
     width: 100%;
-    max-width: 680px;
-    height: 400px;
+    height: 100%;
     padding: 1rem;
     color: var(--cor-primary);
     background-color: var(--cor-bg-2);
     border-radius: 1.25rem;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 textarea::placeholder {
     color: var(--cor-primary); 
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 textarea:focus {
@@ -110,4 +116,32 @@ aside {
     border-radius: 1.5rem;
     background-color: var(--cor-bg-2);
     box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.3);
+}
+
+.text-output-container {
+    display: flex;
+    align-items: end;
+    height: 80%;
+}
+
+.image-aside {
+    padding: 1rem;
+}
+
+.image-aside > h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.image-aside > p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.text-output-content {
+    width: 100%;
+    height: 100%;
+    display: none;
 }
