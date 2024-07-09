@@ -155,7 +155,13 @@ aside {
     display: none;
 }
 
-@media (max-width: 668px){
+@media (max-width: 375px) {
+    .buttons-content {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px){
     main {
         flex-wrap: wrap;
         padding: 1rem;
