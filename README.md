@@ -7,7 +7,6 @@ O objetivo do projeto é criar uma página simples que permite criptografar e de
 
 - **Criptografar:** Insira um texto no campo especificado e clique no botão "Criptografar" para transformar seu texto, você também pode copiar o texto e inserir novamente no campo e clicar em "Descriptografar" para retornar seu texto ao estado original.
 
-- **Descriptografar:** Clique no botão "DECODIFICAR" para reverter o processo e obter o texto original.
 
 ## Como Usar
 
