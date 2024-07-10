@@ -20,8 +20,6 @@ body {
     font-family: 'Inter', Helvetica, sans-serif;
     background-color: var(--cor-bg-1);
     color: var(--cor-text-primary);
-    max-width: 1400px;
-    margin: auto;
 }
   
 h1,

@@ -16,7 +16,7 @@
             </header>
             <div class="text-input-container">
                 <div class="text-input-content">
-                    <textarea placeholder="Digite seu texto"></textarea>
+                    <textarea class="text-area" placeholder="Digite seu texto"></textarea>
                 </div>
                 <div class="buttons-container">
                     <div class="alert">
@@ -24,25 +24,27 @@
                         Apenas letras minúsculas e sem acento.
                     </div>
                     <div class="buttons-content">
-                        <button class="btn-primary">Criptografar</button>
-                        <button class="btn-secondary">Descriptografar</button>
-                    </div>
+                        <button class="btn-primary" onclick="btnCriptografar()">Criptografar</button>
+                        <button class="btn-secondary" onclick="btnDescriptografar()">Descriptografar</button>
+                    </div>     
                 </div>
             </div>
         </section>
-        <aside>
+        <aside class="container">
             <div class="text-output-container">
-                <div class="image-aside">
-                    <img src="./public/assets/girl.svg" alt="desenho de uma garota sentada com uma lupa de aumento olhando um diamante">
+                <textarea id="message" class="message"></textarea>
+                <img id="image" src="./public/assets/girl.svg" alt="desenho de uma garota sentada com uma lupa de aumento olhando um diamante" class="image">
+                <div class="content">
                     <h2>Nenhuma mensagem encontrada</h2>
                     <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
                 </div>
-                <div class="text-output-content">
-                    <textarea placeholder="Digite seu texto aqui"></textarea>
-                </div>
+            <button id="btn-copy" onclick="btnCopy()" class="btn-secondary hidden">Copiar</button>  
             </div>
-            <button class="btn-secondary">Copiar</button>  
         </aside>
     </main>
+    <footer>
+        <h5 class="rodape">Desenvolvido por Gilberto da Silva Espinosa - 2024</h5>
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
